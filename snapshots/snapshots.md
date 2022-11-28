@@ -7,8 +7,11 @@
 
 # Ảnh trang chi tiết:
 ![alt](./anh_kq/img6.png);
+
 ![alt](./anh_kq/img7.png);
+
 ![alt](./anh_kq/img8.png);
+
 ![alt](./anh_kq/img9.png);
 
 # Ảnh trang xã hội:
