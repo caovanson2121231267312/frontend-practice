@@ -3,19 +3,19 @@
 ## Bài 1: Cắt giao diện PSD Blog Review Nhà
 
 - Đề bài yêu cầu cắt lại giao diện blog của trang Review nhà với figma
-- Thực hiện bởi: **Nguyễn Gia Hào**
+- Thực hiện bởi: **Cao Văn Sơn**
 - Figma/PSD/Template: https://www.figma.com/file/OqoskP3WsOjZYsIaXsqdm0/ReviewNha
-- Github page: ... 
+- Github page: https://caovanson2121231267312.github.io/frontend-practice/index.html 
 
-## Snapshots
-- Link to snapshots/snapshots.md
+## Responsive trên màn hình:
 
-## Các plugins, libraries đã sử dụng
-- ...
-- ...
-- ...
+1920px
+1027px
+768px
+375px
 
-## Cài đặt
-```
-yarn run prod
-```
+## Được viết bằng
+
+Html
+Css
+Javascript

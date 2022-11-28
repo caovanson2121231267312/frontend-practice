@@ -1,0 +1,256 @@
+@media only screen and (max-width: 1253px) {
+    .container {
+        margin: 0 46px;
+    }
+
+    .banner {
+        margin: 30px 10px;
+    }
+
+    .main-container {
+        margin: 30px 10px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .btn-news, .btn-db {
+        display: none;
+    }
+
+    .btn-news {
+        margin: 0 15px;
+    }
+
+    .like-page {
+        transition: .3s;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        margin: 0 46px;
+    }
+
+    .menu, .btn-db {
+        display: none;
+    }
+
+    .bell {
+        display: block;
+    }
+
+    .banner {
+        margin: 30px 0px;
+    }
+
+    .post .title-news {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        line-height: 21px;
+    }
+
+    .d-block-lg {
+        display: initial;
+    }
+
+    .like-page {
+        margin-right: 20px;
+    }
+
+    .logo-layout {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 0 36px;
+    }
+
+    .category li a {
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+
+    .col-md-12 {
+        flex: 0 0 auto;
+        max-width: 100%;
+    }
+
+    .list-video_sub {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .video-main {
+        width: 100%;
+    }
+
+    .list-video {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .dropdown-menu-right ul li:hover:after {
+        width: 25%;
+    }
+
+    .col-md-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+    .col-md-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.66666667%;
+        flex: 0 0 66.66666667%;
+        max-width: 66.66666667%;
+    }
+
+    .col-md-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.3333333%;
+        flex: 0 0 33.3333333%;
+        max-width: 33.3333333%;
+    }
+
+    .col-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .title-post {
+        font-size: 21px;
+    }
+
+    .w-c {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 100px;
+    }
+
+    .m-t-b-1 .btn {
+        padding: 5px 30px;
+    }
+
+    .header-nav-menu-icon {
+        height: 15px;
+        width: 15px;
+    }
+
+    .d-none-mobile1 {
+        display: none;
+    }
+
+    .d-initial-mobile1 {
+        display: initial;
+    }
+
+    .logo-layout {
+        margin-top: 10px;
+    }
+
+    .like-page {
+        margin-right: 10px;
+    }
+
+    .like-page i {
+        font-size: 20px;
+    }
+
+    .p-b {
+        font-size: 15px;
+    }
+
+    .btn-cate {
+        font-size: 14px;
+        display: inline-block;
+        padding: 4px 16px;
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+    .container {
+        margin: 0 22px;
+    }
+
+    .dropdown-menu-right ul li:hover:after {
+        width: 0px;
+    }
+
+    .category li a {
+        padding: 6px 20px;
+    }
+
+    .post-item .add-like {
+        bottom: 9px;
+        left: 17px;
+        font-size: 20px;
+        top: auto;
+    }
+
+    .post-item .add-like:hover {
+        transform: scale(1.0);
+    }
+
+    .m-0-mb {
+        margin: 0px;
+    }
+
+    .d-block-md {
+        display: block;
+    }
+
+    .d-none-mobile {
+        display: none;
+    }
+
+    .post .title-description {
+        -webkit-line-clamp: 4;
+        font-size: 14px;
+    }
+
+    .post .title-news {
+        font-size: 14px;
+    }
+
+    .post .user-name-news {
+        font-size: 12px;
+    }
+
+    .post .date-news {
+        font-size: 12px;
+    }
+
+    .post .address-news {
+        font-size: 13px;
+    }
+
+    .col-12 {
+        flex: 0 0 auto;
+        max-width: 100%;
+    }
+
+    .col-6 {
+        flex: 0 0 auto;
+        max-width: 50%;
+    }
+}

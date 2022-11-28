@@ -5,9 +5,489 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Review Nhà</title>
+    <title>Bài viết</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
 </head>
-<body>
 
+<body>
+    <header>
+        <nav class="d-flex navbar navbar-collapse">
+            <div class="menu flex-30">
+                <ul class=" d-flex align-items-center justify-content-between h-100">
+                    <li>
+                        <a href="">Mua nhà</a>
+                    </li>
+                    <li>
+                        <a href="">Thuê nhà</a>
+                    </li>
+                    <li>
+                        <a href="">Khám phá</a>
+                    </li>
+                    <li>
+                        <a class="active" href="">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-30 text-center logo-layout">
+                <a id="show_menu" href="javascript:void(0)" class="logo-f justify-content-center d-none d-block-lg">
+                    <img src="assets/images/icons/menu.png" alt="" class="header-nav-menu-icon">
+                </a>
+                <a href="" class="logo-f justify-content-center">
+                    <img class="logo" src="assets/images/logo/logo.png">
+                </a>
+            </div>
+            <div class="flex-30">
+                <div class="d-flex h-100 align-items-center justify-content-end">
+                    <div class="d-flex">
+                        <a href="" class="like-page bell">
+                            <i class="fas fa-bell"></i>
+                        </a>
+                        <a href="" class="like-page">
+                            <i class="fas fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="btn-db">
+                        <a href="" class="btn-news">
+                            Đăng bài
+                        </a>
+                    </div>
+                    <div>
+                        <div class="d-flex">
+                            <div class="d-none-mobile1">
+                                <span class="d-block user-name">Cao Văn Sơn</span>
+                                <span class="d-block user-position">Intern</span>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img class="avatar-user" src="assets/images/logo/meo-hai-tay-cam-dieu-thuoc-hut.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="dropdown-menu-right" class="dropdown-menu-right">
+        <div class="p-r w-h-100">
+            <div>
+                <a id="close_menu" href="javascript:void(0)">
+                    <i class="fas fa-times"></i>
+                </a>
+                <a href="">
+                    <img class="menu-logo" src="assets/images/logo/logo.png">
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">Mua nhà</a>
+                    </li>
+                    <li>
+                        <a href="">Thuê nhà</a>
+                    </li>
+                    <li>
+                        <a href="">Khám phá</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="p-a btn-menu w-100">
+                <div>
+                    <a class="db-btn w-100" href="">Đăng bài</a>
+                </div>
+                <div class="d-flex">
+                    <a class="btn-sign_up" href="">Đăng ký</a>
+                    <a class="btn-sign_in" href="">Đăng nhập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="m-t-10"></div>
+
+        <section class="main-container">
+            <div class="dff">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span>
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                        <span>
+                            <a class="back" href="index.html">Quay lại</a>
+                        </span>
+                    </div>
+                    <div>
+                        <span>Chuyên mục: </span>
+                        <a class="btn-cate m-f-r" href="">Xã hội</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <p class="title-post">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices iaculis est curabitur arcu augue amet. Nisi augue sit euismod 
+                </p>
+
+                <div class="d-flex justify-content-between">
+                    <div class="m-t-b-1 d-flex align-items-center">
+                        <span class="address-news">
+                            <a href="">Xã hội</a>
+                        </span>
+                        <span>.</span>
+                        <span class="user-name-news">
+                            Cao Văn Sơn
+                        </span>
+                        <span>.</span>
+                        <span class="date-news">
+                            11/22/2022
+                        </span>
+                    </div>
+                    <div class="m-t-b-1 w-c">
+                        <a class="btn btn-mail" href="">
+                            <i class="far fa-envelope"></i>
+                            <span class="d-none-mobile1">Gửi mail</span>
+                        </a>
+                        <a class="btn btn-share" href="">
+                            <i class="fab fa-facebook"></i>
+                            <span class="d-none-mobile1">Chia sẻ</span>
+                        </a>
+                        <a class="btn btn-save" href="">
+                            <i class="fas fa-heart"></i>
+                            <span class="d-none-mobile1">Lưu</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="img-post">
+                    <img src="assets/images/news/main-new.png">
+                </div>
+
+                <div class="p-content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id varius rutrum aliquam. Diam ullamcorper ut mattis fringilla nunc, sed eu nisi. Amet, duis auctor tempor sit mauris rhoncus. Pretium at massa sed morbi sit tincidunt arcu. Pharetra, turpis id elementum cursus amet, eu scelerisque ipsum. Suspendisse nulla congue mauris mattis diam sed venenatis non bibendum. Vestibulum, lobortis aenean lorem aenean sagittis. Et nibh ullamcorper justo cursus eget. Tortor faucibus volutpat, vel nullam sed massa ullamcorper in ultrices. Augue viverra tincidunt amet, neque, dictum tellus turpis. Ipsum nisl mi est, tempus phasellus morbi quisque. Mi sed sit amet ipsum. Mi erat leo fringilla ullamcorper.
+                    </p>
+                    <p>
+                        Aenean gravida cursus tempus nullam ipsum sit et. Id pellentesque vel, mattis massa vitae. Amet, vel nunc sed adipiscing fermentum suspendisse est bibendum. Elit interdum tincidunt diam egestas condimentum nibh. Massa mollis vitae id morbi pulvinar tincidunt. Risus euismod nec fringilla eros, commodo. Odio morbi in at penatibus eleifend orci scelerisque. Auctor ornare volutpat penatibus maecenas vel. Luctus libero at in ut justo molestie aliquet. Ultricies suspendisse hac nibh vivamus facilisis nulla.
+                    </p>
+                    <p>
+                        Augue et elit velit malesuada sit egestas et augue volutpat. Sagittis, suspendisse semper mi faucibus aliquam eget. Cras diam nunc, malesuada amet imperdiet quis molestie. Nibh nunc lacus quis quis nisi integer. Tincidunt viverra semper nisl, quis vel cras fermentum. Porttitor tortor urna pulvinar rhoncus, adipiscing nisl facilisi vulputate. Massa vestibulum lorem nunc purus phasellus commodo praesent a. Proin integer non ultrices sagittis, sit non adipiscing eu risus. Ac dignissim malesuada et lectus ut iaculis at libero. Id ut non consectetur cursus purus. Egestas cursus vitae odio enim. Nunc, non ac quam gravida in. Odio morbi ullamcorper nullam nisi, risus, donec.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-8 col-xl-8">
+                        <img class="img-full" src="assets/images/news/img_11.png">
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4 row">
+                        <div class="col-6">
+                            <img class="img-full br-24" src="assets/images/news/img_12.png">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-full br-24" src="assets/images/news/img_13.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h3 mt-1">
+                    Lorem ipsum dolor sit amet, 
+                </div>
+
+                <div class="p-content">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id varius rutrum aliquam. Diam ullamcorper ut mattis fringilla nunc, sed eu nisi. Amet, duis auctor tempor sit mauris rhoncus. Pretium at massa sed morbi sit tincidunt arcu. Pharetra, turpis id elementum cursus amet, eu scelerisque ipsum. Suspendisse nulla congue mauris mattis diam sed venenatis non bibendum. Vestibulum, lobortis aenean lorem aenean sagittis. Et nibh ullamcorper justo cursus eget. Tortor faucibus volutpat, vel nullam sed massa ullamcorper in ultrices. Augue viverra tincidunt amet, 
+                    </p>
+                </div>
+
+                <div class="li-content">
+                    <ul>
+                        <li>
+                            <span class="s1">Tiêu chí 1: </span>
+                            <span class="s2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit molestie etiam nunc egestas</span>
+                        </li>
+                        <li>
+                            <span class="s1">Tiêu chí 2: </span>
+                            <span class="s2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit molestie etiam nunc egestas</span>
+                        </li>
+                        <li>
+                            <span class="s1">Tiêu chí 3: </span>
+                            <span class="s2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit molestie etiam nunc egestas</span>
+                        </li>
+                        <li>
+                            <span class="s1">Tiêu chí 4: </span>
+                            <span class="s2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit molestie etiam nunc egestas</span>
+                        </li>
+                        <li>
+                            <span class="s1">Tiêu chí 5: </span>
+                            <span class="s2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit molestie etiam nunc egestas</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tag">
+                <a class="btn btn-tag" href=""># keyword 1</a>
+                <a class="btn btn-tag" href=""># keyword 2</a>
+            </div>
+
+            <div class="post">
+                <div class="d-flex justify-content-between mt-5">
+                    <span class="p-b">Tin cùng chuyên mục <a class="btn-cate m-f-r" href="">Xã hội</a>
+                        
+                    </span>
+                    <a class="d-none d-initial-mobile1" href="">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    <span class="d-none-mobile1">
+                        <a href="">Xem tất cả</a>
+                    </span>
+                </div>
+
+                <div class="row">
+
+                    <div class="post-item row">
+                        <div class="col-12 d-none d-block-md">
+                            <a class="" href="article.html">
+                                <p class="title-news">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
+                            </a>
+                            <div class="m-t-b-1 m-0-mb">
+                                <span class="address-news">
+                                    <a href="">Xã hội</a>
+                                </span>
+                                <span>.</span>
+                                <span class="user-name-news">
+                                    Cao Văn Sơn
+                                </span>
+                                <span>.</span>
+                                <span class="date-news">
+                                    11/22/2022
+                                </span>
+                            </div>
+                        </div>
+                        <div class="img p-r col-6 col-lg-4 col-xl-4">
+                            <a href="article.html">
+                                <img src="assets/images/news/img_2.png">
+                            </a>
+                            <span class="p-a add-like">
+                                <a href="">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col-6 col-lg-8 col-xl-8">
+                            <a class="d-none-mobile" href="article.html">
+                                <p class="title-news">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
+                            </a>
+                            <div class="d-none-mobile m-t-b-1">
+                                <span class="address-news">
+                                    <a href="">Xã hội</a>
+                                </span>
+                                <span>.</span>
+                                <span class="user-name-news">
+                                    Cao Văn Sơn
+                                </span>
+                                <span>.</span>
+                                <span class="date-news">
+                                    11/22/2022
+                                </span>
+                            </div>
+                            <div class="title-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et scelerisque nullam lorem. Libero mi velit id vitae...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-item row">
+                        <div class="col-12 d-none d-block-md">
+                            <a class="" href="article.html">
+                                <p class="title-news">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
+                            </a>
+                            <div class="m-t-b-1 m-0-mb">
+                                <span class="address-news">
+                                    <a href="">Xã hội</a>
+                                </span>
+                                <span>.</span>
+                                <span class="user-name-news">
+                                    Cao Văn Sơn
+                                </span>
+                                <span>.</span>
+                                <span class="date-news">
+                                    11/22/2022
+                                </span>
+                            </div>
+                        </div>
+                        <div class="img p-r col-6 col-lg-4 col-xl-4">
+                            <a href="article.html">
+                                <img src="assets/images/news/img_1.png">
+                            </a>
+                            <span class="p-a add-like">
+                                <a href="">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col-6 col-lg-8 col-xl-8">
+                            <a class="d-none-mobile" href="article.html">
+                                <p class="title-news">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
+                            </a>
+                            <div class="d-none-mobile m-t-b-1">
+                                <span class="address-news">
+                                    <a href="">Xã hội</a>
+                                </span>
+                                <span>.</span>
+                                <span class="user-name-news">
+                                    Cao Văn Sơn
+                                </span>
+                                <span>.</span>
+                                <span class="date-news">
+                                    11/22/2022
+                                </span>
+                            </div>
+                            <div class="title-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et scelerisque nullam lorem. Libero mi velit id vitae...
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="d-flex justify-content-between mt-5">
+                    <span class="p-b">Tin thịnh hành
+                        
+                    </span>
+                    <a class="d-none d-initial-mobile1" href="">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    <span class="d-none-mobile1">
+                        <a href="">Xem tất cả</a>
+                    </span>
+                </div>
+
+                <div class="row">
+
+                    <div class="post-item row">
+                        <div class="col-12 d-none d-block-md">
+                            <a class="" href="article.html">
+                                <p class="title-news">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
+                            </a>
+                            <div class="m-t-b-1 m-0-mb">
+                                <span class="address-news">
+                                    <a href="">Xã hội</a>
+                                </span>
+                                <span>.</span>
+                                <span class="user-name-news">
+                                    Cao Văn Sơn
+                                </span>
+                                <span>.</span>
+                                <span class="date-news">
+                                    11/22/2022
+                                </span>
+                            </div>
+                        </div>
+                        <div class="img p-r col-6 col-lg-4 col-xl-4">
+                            <a href="article.html">
+                                <img src="assets/images/news/img.png">
+                            </a>
+                            <span class="p-a add-like">
+                                <a href="">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col-6 col-lg-8 col-xl-8">
+                            <a class="d-none-mobile" href="article.html">
+                                <p class="title-news">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
+                            </a>
+                            <div class="d-none-mobile m-t-b-1">
+                                <span class="address-news">
+                                    <a href="">Xã hội</a>
+                                </span>
+                                <span>.</span>
+                                <span class="user-name-news">
+                                    Cao Văn Sơn
+                                </span>
+                                <span>.</span>
+                                <span class="date-news">
+                                    11/22/2022
+                                </span>
+                            </div>
+                            <div class="title-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et scelerisque nullam lorem. Libero mi velit id vitae...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-item row">
+                        <div class="col-12 d-none d-block-md">
+                            <a class="" href="article.html">
+                                <p class="title-news">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
+                            </a>
+                            <div class="m-t-b-1 m-0-mb">
+                                <span class="address-news">
+                                    <a href="">Xã hội</a>
+                                </span>
+                                <span>.</span>
+                                <span class="user-name-news">
+                                    Cao Văn Sơn
+                                </span>
+                                <span>.</span>
+                                <span class="date-news">
+                                    11/22/2022
+                                </span>
+                            </div>
+                        </div>
+                        <div class="img p-r col-6 col-lg-4 col-xl-4">
+                            <a href="article.html">
+                                <img src="assets/images/news/img_3.png">
+                            </a>
+                            <span class="p-a add-like">
+                                <a href="">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col-6 col-lg-8 col-xl-8">
+                            <a class="d-none-mobile" href="article.html">
+                                <p class="title-news">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
+                            </a>
+                            <div class="d-none-mobile m-t-b-1">
+                                <span class="address-news">
+                                    <a href="">Xã hội</a>
+                                </span>
+                                <span>.</span>
+                                <span class="user-name-news">
+                                    Cao Văn Sơn
+                                </span>
+                                <span>.</span>
+                                <span class="date-news">
+                                    11/22/2022
+                                </span>
+                            </div>
+                            <div class="title-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et scelerisque nullam lorem. Libero mi velit id vitae...
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </section>
+
+    </div>
+
+    <footer></footer>
+
+    <script type="text/javascript" src="assets/js/index.js"></script>
 </body>
 </html>
